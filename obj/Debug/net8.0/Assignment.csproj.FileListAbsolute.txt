@@ -1,0 +1,5 @@
+C:\Users\USER PC\OneDrive\文档\FullStackWeb\Assignment.Solution\Assignment\obj\Debug\net8.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER PC\OneDrive\文档\FullStackWeb\Assignment.Solution\Assignment\obj\Debug\net8.0\Assignment.AssemblyInfoInputs.cache
+C:\Users\USER PC\OneDrive\文档\FullStackWeb\Assignment.Solution\Assignment\obj\Debug\net8.0\Assignment.AssemblyInfo.cs
+C:\Users\USER PC\OneDrive\文档\FullStackWeb\Assignment.Solution\Assignment\obj\Debug\net8.0\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\USER PC\OneDrive\文档\FullStackWeb\Assignment.Solution\Assignment\obj\Debug\net8.0\Assignment.sourcelink.json
