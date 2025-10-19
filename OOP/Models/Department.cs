@@ -8,9 +8,32 @@ namespace Assignment.OOP.Models
 {
     internal class Department
     {
-        public int id;
-        public string name;
-        public string description;
-        public 
+        private int id;
+        private string name;
+        private string description;
+        public Department()
+        {
+
+        }
+
+        public Department(string name, string description)
+        {
+            this.name = name;
+            this.description = description;
+        }
+        //public void SetName(string Name)
+        //{
+        //    this.name = Name;
+        //}
+        public string GetName()
+        {
+            return this.name;
+        }
+        public Department(int id, string name, string description)
+        {
+            this.id = id;
+            this.name = name;
+            this.description = description;
+        }
     }
 }
