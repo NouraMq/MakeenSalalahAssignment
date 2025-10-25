@@ -1,4 +1,6 @@
 ﻿using Assignment.OOP.Models;
+using Assignment.OOP.Models.Animalex;
+using Assignment.OOP.Models.IDevice;
 
 namespace Assignment
 {
@@ -155,8 +157,36 @@ namespace Assignment
 
             //Console.WriteLine(acc.WithDraw(-1000)); ;
 
-            Console.WriteLine(1 "IsbnNo: {IsbnNo}")
-           
+            //Animal
+            Console.WriteLine("\t\t\t Animal Sound Simulation ");
+            Console.WriteLine();
+            Console.WriteLine("Animal Sounds:");
+            Console.WriteLine("__________________________________________");
+            // Creating animal objects and making sounds
+            Animal animal1 = new Dog("Buddy");
+            Animal animal3 = new Dog("Max");
+            Animal animal2 = new Cat("Whiskers");
+            Console.WriteLine();
+            animal1.MakeSound();
+            animal2.MakeSound();
+            animal3.MakeSound();
+
+            //Smart Home Device Control (Hard)
+
+            Console.WriteLine("\t\t\t Smart Home Device Control ");
+            Console.WriteLine();
+            Console.WriteLine("Device Status:");
+            Console.WriteLine("__________________________________________");
+            Light livingRoom = new Light();
+            Thermostat homeThermostat = new Thermostat();
+            Controller controller = new Controller();
+            Console.WriteLine("Operating Light:");
+            controller.OperatelDevice(livingRoom);
+            Console.WriteLine("\nOperating Thermostat:");
+            controller.OperatelDevice(homeThermostat);
+
+
+
 
         }
 

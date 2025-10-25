@@ -23,12 +23,7 @@ namespace Assignment.OOP.Models
         {
 
         }
-        public Employee(int id, string Fname, string Lname)
-        {
-            this.Id = id;
-            this.Fname = Fname;
-            this.Lname = Lname;
-        }
+        
         public Employee(int id, string Fname)
         {
             this.Id = id;
