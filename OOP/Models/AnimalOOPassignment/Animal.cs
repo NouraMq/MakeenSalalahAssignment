@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace Assignment.OOP.Models.Animalex
 {
-    internal class Animal
+    public abstract class Animal
     {
         // Property to store the name of the animal
-        public string Name;
+        public string Name { get; set; }
 
-        // Constructor to initialize the animal's name \
+        // Constructor to initialize the animal's name
         public Animal(string name)
         {
             Name = name;
-
         }
+
         // Abstract method MakeSound() to be implemented by derived classes
         public abstract void MakeSound();
-
     }
+
 }
+

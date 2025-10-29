@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="OOP\Models\Enum\" />
-    <Folder Include="OOP\Models\Shapes\" />
   </ItemGroup>
 
 </Project>

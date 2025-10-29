@@ -4,16 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment.OOP.Models.IDevice
+namespace Assignment.OOP.Models.SmartDevice
 {
+    public interface IDevice
+    {
+        void TurnOn();
+        void TurnOff();
+        void ShowStatus();
+    }
+
     internal class Controller
     {
-        public void OperatelDevice(IDevice device)
+
+        public void OperateDevice(IDevice device)
         {
-            // Use the IDevice methods to operate the device
             device.TurnOn();
             device.ShowStatus();
             device.TurnOff();
             device.ShowStatus();
         }
+    
+}
 }
